@@ -8,26 +8,51 @@
 </head>
 <body>
     <header>
-        <img src="img/logochapeu.png" alt="logo ceara junino">
-        <ul>
-            <li><a href="">SOBRE</a></li>
-            <li><a href="">CRONOGRAMA</a></li>
-            <li><a href="">INSCRIÇÕES 2025</a></li>
-            <li><a href="">GALERIA</a></li>
-            <li><a href="">REDES SOCIAIS</a></li>
-        </ul>
+        <img src="img/logochapeu.png" alt="Logo Ceará Junino">
+
+        <!-- Botão hamburguer (☰ MENU) -->
+        <button id="menu-toggle" aria-label="Abrir menu">
+            ☰ <strong>MENU</strong>
+        </button>
+
+        <!-- Menu de navegação -->
+        <nav id="menu">
+            <ul>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#cronograma">CRONOGRAMA</a></li>
+                <li><a href="#inscricoes">INSCRIÇÕES 2025</a></li>
+                <li><a href="#galeria">GALERIA</a></li>
+                <li><a href="#redes">REDES SOCIAIS</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
         <section class="banner">
-            <img src="img/chamativa.png" alt="img chamativa">
+            <img src="img/chamativa.png" alt="Imagem chamativa dos festejos">
         </section>
 
-            <section id="sobre" class="sobre">
+        <section id="sobre" class="sobre">
             <h2>SOBRE</h2>
             <p>
-                O Ceará Junino tem por objetivo identificar e difundir as tradições regionais cearenses voltadas para os festejos juninos e está dividido na categoria “Festival de Quadrilhas Juninas”, apoiando eventos com programação cultural fiel às tradições juninas contendo apresentações de quadrilhas juninas – adulta - com casamento, grupo musical regional (sanfona, zabumba, triângulo, pandeiro), quermesse, festival de comidas típicas, feira de artesanato, manifestações artísticas tradicionalmente populares como grupos de dança do coco, bumba-meu-boi, maneiro pau, etc.); e a categoria “Apoio aos Grupos Juninos”, financiando iniciativas que estimulem e valorizem expressões artísticas e culturais, fomentem o desenvolvimento de grupos de Quadrilhas Juninas e sua rede responsável pela produção de manifestações culturais típicas do período junino em nosso Estado.         
+                O Ceará Junino tem por objetivo identificar e difundir as tradições regionais cearenses voltadas para os festejos juninos e está dividido na categoria “Festival de Quadrilhas Juninas”, apoiando eventos com programação cultural fiel às tradições juninas contendo apresentações de quadrilhas juninas – adulta - com casamento, grupo musical regional (sanfona, zabumba, triângulo, pandeiro), quermesse, festival de comidas típicas, feira de artesanato, manifestações artísticas tradicionalmente populares como grupos de dança do coco, bumba-meu-boi, maneiro pau, etc. Já a categoria “Apoio aos Grupos Juninos” financia iniciativas que estimulem e valorizem expressões artísticas e culturais, fomentem o desenvolvimento de grupos de Quadrilhas Juninas e sua rede responsável pela produção de manifestações culturais típicas do período junino em nosso Estado.         
             </p>
         </section>
+        
+        <section id="cronograma"></section>
+        <section id="inscricoes"></section>
+        <section id="galeria"></section>
+        <section id="redes"></section>
     </main>
+
+    <!-- Script para menu funcionar no celular -->
+    <script>
+        const toggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+
+        toggle.addEventListener("click", () => {
+            menu.classList.toggle("ativo");
+        });
+    </script>
 </body>
 </html>
