@@ -54,7 +54,13 @@ header ul li a:hover {
 /* Banner principal */
 main section {
   background-color: #EFDCAB;
-  padding: 40px 20px;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.banner2{
+  background-color: #EFDCAB;
+  padding: 5px 20px;
   text-align: center;
 }
 
@@ -78,7 +84,7 @@ main p {
 }
 
 .sobre h2 {
-  font-size: 1.8em;
+  font-size: 30px;
   margin-bottom: 20px;
   color: #EFDCAB;
   text-align: center;
@@ -112,6 +118,8 @@ main p {
   display: block;
   margin: 0 auto;
 }
+
+
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -229,3 +237,8 @@ nav ul li a:hover {
   }
 }
 
+.cronograma{
+  font-size: 20px;
+  color: #3C744D;
+  text-align: center;
+}
