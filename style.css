@@ -91,6 +91,12 @@ main p {
   line-height: 1.8;
   text-align: justify;
   color: #EFDCAB;
+
+  border: 2px solid #EFDCAB;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px; 
 }
 
 /* Banner */
@@ -114,6 +120,14 @@ main p {
     align-items: center;
     padding: 20px;
   }
+
+  header img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
 
   header ul {
     flex-direction: column;
