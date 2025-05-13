@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Ceará Junino</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
+
 <body>
     <header>
         <img src="img/logochapeu.png" alt="Logo Ceará Junino">
@@ -28,26 +30,59 @@
     </header>
 
     <main>
-        <section class="banner banner2" >
+        <!--começando contudo principal da pagina-->
+        <section class="banner banner2">
             <img src="img/chamativa.png" alt="Imagem chamativa dos festejos">
         </section>
-
+        <!--Sobre da pagina-->
         <section id="sobre" class="sobre">
             <h2>SOBRE</h2>
             <p>
-                O Ceará Junino tem por objetivo identificar e difundir as tradições regionais cearenses voltadas para os festejos juninos e está dividido na categoria “Festival de Quadrilhas Juninas”, apoiando eventos com programação cultural fiel às tradições juninas contendo apresentações de quadrilhas juninas – adulta - com casamento, grupo musical regional (sanfona, zabumba, triângulo, pandeiro), quermesse, festival de comidas típicas, feira de artesanato, manifestações artísticas tradicionalmente populares como grupos de dança do coco, bumba-meu-boi, maneiro pau, etc. Já a categoria “Apoio aos Grupos Juninos” financia iniciativas que estimulem e valorizem expressões artísticas e culturais, fomentem o desenvolvimento de grupos de Quadrilhas Juninas e sua rede responsável pela produção de manifestações culturais típicas do período junino em nosso Estado.         
+                O Ceará Junino tem por objetivo identificar e difundir as tradições regionais cearenses voltadas para os
+                festejos juninos e está dividido na categoria “Festival de Quadrilhas Juninas”, apoiando eventos com
+                programação cultural fiel às tradições juninas contendo apresentações de quadrilhas juninas – adulta -
+                com casamento, grupo musical regional (sanfona, zabumba, triângulo, pandeiro), quermesse, festival de
+                comidas típicas, feira de artesanato, manifestações artísticas tradicionalmente populares como grupos de
+                dança do coco, bumba-meu-boi, maneiro pau, etc. Já a categoria “Apoio aos Grupos Juninos” financia
+                iniciativas que estimulem e valorizem expressões artísticas e culturais, fomentem o desenvolvimento de
+                grupos de Quadrilhas Juninas e sua rede responsável pela produção de manifestações culturais típicas do
+                período junino em nosso Estado.
             </p>
         </section>
-        
+        <!--começando o cronograma-->
         <section id="cronograma" class="cronograma">
-            <h2> CRONOGRAMA </h2>
+            <h2> CRONOGRAMA 2025</h2>
+            <hr>
+            <!--botão para as informações-->
+            <div class="button-container">
+                <button class="btn-toggle" onclick="toggleInfo()">Canindé</button>
+            </div>
+            <!--Conteudo que vai aparecer quando aperta o botão-->
+            <div id="caninde-info" class="info-box">
+                <div class="info-item"><strong>📅 Data:</strong> 27 de junho (sexta-feira)</div>
+                <div class="info-item"><strong>⏰ Horário:</strong> 14h</div>
+                <div class="info-item"><strong>📍 Local:</strong> Praça da Matriz da Lagoa do Mato</div>
+                <div class="info-item">
+                    <strong>⭐ Programação:</strong>
+                    <ul>
+                        <li>14h – Oficina Saberes do Couro Cearense</li>
+                        <li>18h – Cortejo das Quadrilhas de Itatira</li>
+                        <li>19h – Quadrilhas Juninas Escolares</li>
+                        <li>20h – Quadrilha Infantil Coração São João</li>
+                        <li>21h – Quadrilha Infantil Estrela de Ouro</li>
+                        <li>22h – Quadrilha Revolução Junina</li>
+                        <li>23h – Quadrilha Cumpade Jerê</li>
+                        <li>00h – Quadrilha Junina Estrela do Sertão</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section id="inscricoes"></section>
         <section id="galeria"></section>
         <section id="redes"></section>
     </main>
 
-    <!-- Script para menu funcionar no celular -->
+    <!--Script para menu funcionar no celular-->
     <script>
         const toggle = document.getElementById("menu-toggle");
         const menu = document.getElementById("menu");
@@ -56,5 +91,13 @@
             menu.classList.toggle("ativo");
         });
     </script>
+    <!--Script que faz o botão funcionar-->
+    <script>
+    function toggleInfo() {
+      const box = document.getElementById("caninde-info");
+      box.style.display = box.style.display === "none" || box.style.display === "" ? "block" : "none";
+    }
+  </script>
 </body>
+
 </html>

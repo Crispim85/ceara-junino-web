@@ -1,3 +1,7 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
 /* Reset básico */
 * {
   margin: 0;
@@ -58,7 +62,20 @@ main section {
   text-align: center;
 }
 
-.banner2{
+.banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner2 {
   background-color: #EFDCAB;
   padding: 5px 20px;
   text-align: center;
@@ -74,6 +91,15 @@ main p {
   margin: 10px 0;
   color: #386c3c;
   font-weight: bold;
+}
+
+main section hr {
+  width: 80%;
+  height: 8px;
+  border-radius: 8px;
+  border-color: #3C744D;
+  margin: 40px auto 0px auto;
+  background-color: #3C744D;
 }
 
 /* Seção SOBRE */
@@ -102,24 +128,8 @@ main p {
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  border-radius: 30px; 
+  border-radius: 30px;
 }
-
-/* Banner */
-.banner {
-  width: 100%;
-  overflow: hidden;
-}
-
-.banner img {
-  width: 100%;
-  height: auto;
-  max-width: 800px;
-  display: block;
-  margin: 0 auto;
-}
-
-
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -130,12 +140,12 @@ main p {
   }
 
   header img {
-  width: 100%;
-  height: auto;
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
-}
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
 
   header ul {
     flex-direction: column;
@@ -161,6 +171,7 @@ main p {
     height: auto;
   }
 }
+
 /* Reset básico */
 * {
   margin: 0;
@@ -201,17 +212,18 @@ nav ul li a:hover {
 /* Responsivo */
 @media (max-width: 768px) {
   header {
-  position: relative; /* necessário para posicionar elementos filhos absolutos */
-}
+    position: relative;
+    /* necessário para posicionar elementos filhos absolutos */
+  }
 
-#menu-toggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
+  #menu-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
 
 
   nav {
@@ -237,8 +249,54 @@ nav ul li a:hover {
   }
 }
 
-.cronograma{
+.cronograma {
+  font-family: "Londrina Solid";
   font-size: 20px;
   color: #3C744D;
   text-align: center;
+}
+
+/*CSS do botão*/
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-toggle {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #2e5d3b;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #2e5d3b;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+/*CSS das informações*/
+.info-box {
+  display: none;
+  background-color: #f0ddb0;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.info-item {
+  margin-bottom: 10px;
+}
+
+.info-item strong {
+  display: inline-block;
+  width: 80px;
+}
+
+div ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+div ul li {
+  margin: 4px 0;
 }
