@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!--Cabeçalho da pagina-->
     <header>
         <img src="img/logochapeu.png" alt="Logo Ceará Junino">
 
@@ -28,9 +29,9 @@
             </ul>
         </nav>
     </header>
-
+    <!--começando contudo principal da pagina-->
     <main>
-        <!--começando contudo principal da pagina-->
+        <!--Imagem da pagina-->
         <section class="banner banner2">
             <img src="img/chamativa.png" alt="Imagem chamativa dos festejos">
         </section>
@@ -55,27 +56,94 @@
             <hr>
             <!--botão para as informações-->
             <div class="button-container">
-                <button class="btn-toggle" onclick="toggleInfo()">Canindé</button>
+                <button class="btn-toggle" onclick="toggleInfo('caninde-info')">Canindé</button>
             </div>
             <!--Conteudo que vai aparecer quando aperta o botão-->
             <div id="caninde-info" class="info-box">
-                <div class="info-item"><strong>📅 Data:</strong> 27 de junho (sexta-feira)</div>
-                <div class="info-item"><strong>⏰ Horário:</strong> 14h</div>
-                <div class="info-item"><strong>📍 Local:</strong> Praça da Matriz da Lagoa do Mato</div>
-                <div class="info-item">
-                    <strong>⭐ Programação:</strong>
-                    <ul>
-                        <li>14h – Oficina Saberes do Couro Cearense</li>
-                        <li>18h – Cortejo das Quadrilhas de Itatira</li>
-                        <li>19h – Quadrilhas Juninas Escolares</li>
-                        <li>20h – Quadrilha Infantil Coração São João</li>
-                        <li>21h – Quadrilha Infantil Estrela de Ouro</li>
-                        <li>22h – Quadrilha Revolução Junina</li>
-                        <li>23h – Quadrilha Cumpade Jerê</li>
-                        <li>00h – Quadrilha Junina Estrela do Sertão</li>
-                    </ul>
+                <div class="info-columns">
+                    <div class="info-left">
+                        <div class="info-item"><strong>📅 Data:</strong> 27 de junho (sexta-feira)</div>
+                        <div class="info-item"><strong>⏰ Horário:</strong> 14h</div>
+                        <div class="info-item"><strong>📍 Local:</strong> Praça da Matriz da Lagoa do Mato</div>
+                    </div>
+                    <div class="info-right">
+                        <div class="info-item">
+                            <strong>⭐ Programação:</strong>
+                            <ul>
+                                <li>14h – Oficina Saberes do Couro Cearense</li>
+                                <li>18h – Cortejo das Quadrilhas de Itatira</li>
+                                <li>19h – Quadrilhas Juninas Escolares</li>
+                                <li>20h – Quadrilha Infantil Coração São João</li>
+                                <li>21h – Quadrilha Infantil Estrela de Ouro</li>
+                                <li>22h – Quadrilha Revolução Junina</li>
+                                <li>23h – Quadrilha Cumpade Jerê</li>
+                                <li>00h – Quadrilha Junina Estrela do Sertão</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <hr>
+            <!--botão para as informações-->
+            <div class="button-container">
+                <button class="btn-toggle" onclick="toggleInfo('juazeiro-info')">Juazeiro do Norte</button>
+            </div>
+            <!--Conteudo que vai aparecer quando aperta o botão-->
+            <div id="juazeiro-info" class="info-box">
+                <div class="info-columns">
+                    <div class="info-left">
+                        <div class="info-item"><strong>📅 Data:</strong> 27 de junho (sexta-feira)</div>
+                        <div class="info-item"><strong>⏰ Horário:</strong> 14h</div>
+                        <div class="info-item"><strong>📍 Local:</strong> Praça da Matriz da Lagoa do Mato</div>
+                    </div>
+                    <div class="info-right">
+                        <div class="info-item">
+                            <strong>⭐ Programação:</strong>
+                            <ul>
+                                <li>14h – Oficina Saberes do Couro Cearense</li>
+                                <li>18h – Cortejo das Quadrilhas de Itatira</li>
+                                <li>19h – Quadrilhas Juninas Escolares</li>
+                                <li>20h – Quadrilha Infantil Coração São João</li>
+                                <li>21h – Quadrilha Infantil Estrela de Ouro</li>
+                                <li>22h – Quadrilha Revolução Junina</li>
+                                <li>23h – Quadrilha Cumpade Jerê</li>
+                                <li>00h – Quadrilha Junina Estrela do Sertão</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--botão para as informações-->
+            <div class="button-container">
+                <button class="btn-toggle" onclick="toggleInfo('fortaleza-info')">Fortaleza</button>
+            </div>
+            <!--Conteudo que vai aparecer quando aperta o botão-->
+            <div id="fortaleza-info" class="info-box">
+                <div class="info-columns">
+                    <div class="info-left">
+                        <div class="info-item"><strong>📅 Data:</strong> 27 de junho (sexta-feira)</div>
+                        <div class="info-item"><strong>⏰ Horário:</strong> 14h</div>
+                        <div class="info-item"><strong>📍 Local:</strong> Praça da Matriz da Lagoa do Mato</div>
+                    </div>
+                    <div class="info-right">
+                        <div class="info-item">
+                            <strong>⭐ Programação:</strong>
+                            <ul>
+                                <li>14h – Oficina Saberes do Couro Cearense</li>
+                                <li>18h – Cortejo das Quadrilhas de Itatira</li>
+                                <li>19h – Quadrilhas Juninas Escolares</li>
+                                <li>20h – Quadrilha Infantil Coração São João</li>
+                                <li>21h – Quadrilha Infantil Estrela de Ouro</li>
+                                <li>22h – Quadrilha Revolução Junina</li>
+                                <li>23h – Quadrilha Cumpade Jerê</li>
+                                <li>00h – Quadrilha Junina Estrela do Sertão</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
         </section>
         <section id="inscricoes"></section>
         <section id="galeria"></section>
@@ -93,11 +161,11 @@
     </script>
     <!--Script que faz o botão funcionar-->
     <script>
-    function toggleInfo() {
-      const box = document.getElementById("caninde-info");
-      box.style.display = box.style.display === "none" || box.style.display === "" ? "block" : "none";
-    }
-  </script>
+        function toggleInfo(id) {
+            const box = document.getElementById(id);
+            box.style.display = box.style.display === "none" || box.style.display === "" ? "block" : "none";
+        }
+    </script>
 </body>
 
 </html>

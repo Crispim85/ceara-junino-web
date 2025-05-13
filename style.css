@@ -45,6 +45,7 @@ header ul {
 }
 
 header ul li a {
+  font-family: "Londrina Solid";
   color: #EFDCAB;
   text-decoration: none;
   font-weight: bold;
@@ -81,9 +82,10 @@ main section {
   text-align: center;
 }
 
-main h1 {
+main h2 {
+  font-family: "Londrina Solid";
   font-size: 2em;
-  color: #B94506;
+  color: #3C744D;
 }
 
 main p {
@@ -98,7 +100,7 @@ main section hr {
   height: 8px;
   border-radius: 8px;
   border-color: #3C744D;
-  margin: 40px auto 0px auto;
+  margin: 40px auto 40px auto;
   background-color: #3C744D;
 }
 
@@ -250,7 +252,6 @@ nav ul li a:hover {
 }
 
 .cronograma {
-  font-family: "Londrina Solid";
   font-size: 20px;
   color: #3C744D;
   text-align: center;
@@ -264,23 +265,41 @@ nav ul li a:hover {
 }
 
 .btn-toggle {
+  font-family: "Londrina Solid";
+  font-size: 30px;
   display: inline-block;
-  padding: 10px 20px;
-  border: 2px solid #2e5d3b;
+  padding: 8px 60px;
+  border: 3px solid #2e5d3b;
   border-radius: 25px;
   background-color: transparent;
   color: #2e5d3b;
-  font-weight: bold;
   cursor: pointer;
   margin-bottom: 20px;
 }
 /*CSS das informações*/
 .info-box {
   display: none;
-  background-color: #f0ddb0;
+  background-color: #EFDCAB;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #ccc;
+}
+
+.info-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.info-left, .info-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.info-left .info-item,
+.info-right .info-item {
+  margin-bottom: 10px;
 }
 
 .info-item {
