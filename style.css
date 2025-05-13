@@ -288,9 +288,28 @@ nav ul li a:hover {
 
 .info-columns {
   display: flex;
-  justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
+}
+
+.info-item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.info-item-right {
+  display: inline-block;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.icon {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 2px;
 }
 
 .info-left, .info-right {
@@ -300,10 +319,6 @@ nav ul li a:hover {
 
 .info-left .info-item,
 .info-right .info-item {
-  margin-bottom: 10px;
-}
-
-.info-item {
   margin-bottom: 10px;
 }
 
