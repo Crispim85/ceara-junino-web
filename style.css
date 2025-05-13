@@ -89,10 +89,10 @@ main h2 {
 }
 
 main p {
+  font-family: "Arimo";
   font-size: 1.3em;
   margin: 10px 0;
   color: #386c3c;
-  font-weight: bold;
 }
 
 main section hr {
@@ -278,6 +278,7 @@ nav ul li a:hover {
 }
 /*CSS das informações*/
 .info-box {
+  font-family: "Arimo";
   display: none;
   background-color: #EFDCAB;
   padding: 20px;
@@ -308,14 +309,14 @@ nav ul li a:hover {
 
 .info-item strong {
   display: inline-block;
-  width: 80px;
+  width: auto;
 }
 
-div ul {
+main section div ul {
   padding-left: 0;
   list-style: none;
 }
 
-div ul li {
+main section div ul li {
   margin: 4px 0;
 }
