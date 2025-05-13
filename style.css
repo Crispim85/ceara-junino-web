@@ -178,9 +178,19 @@ nav ul li a:hover {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  #menu-toggle {
-    display: flex;
-  }
+  header {
+  position: relative; /* necessário para posicionar elementos filhos absolutos */
+}
+
+#menu-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 
   nav {
     width: 100%;
