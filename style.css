@@ -409,6 +409,14 @@ main section div ul li {
   margin: 10px auto;
 }
 
+#rodape .pat_ofc {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
   #rodape .pat_ofc img {
     height: 80px;
     object-fit: contain;
@@ -416,7 +424,7 @@ main section div ul li {
   }
 
 #rodape .pat_ins p,
-#rodape .pat_ofc p {
+#rodape .pat p {
   margin: 10px 0;
   color: #EFDCAB;
 }
