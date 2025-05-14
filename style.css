@@ -366,6 +366,7 @@ main section div ul li {
 #inscricoes input[type="text"],
 #inscricoes input[type="email"],
 #inscricoes input[type="tel"] {
+  background-color: transparent;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -373,6 +374,10 @@ main section div ul li {
   border-radius: 20px;
   font-size: 16px;
   outline: none;
+}
+
+input::placeholder {
+  color: #444;
 }
 
 #inscricoes input[type="submit"] {
