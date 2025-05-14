@@ -495,3 +495,10 @@ input::placeholder {
   color: #EFDCAB;
   padding: 0 10px;
 }
+
+/*Arrumar responsividade!*/
+.gallery {
+  width: 800px;
+  height: auto;
+  margin: auto;
+}
