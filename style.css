@@ -434,6 +434,30 @@ input::placeholder {
   color: #EFDCAB;
 }
 
+.redes {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.redes img {
+    width: 50px;
+    object-fit: contain;
+    height: 50px;
+}
+
+.redes a {
+  display: flex;
+  align-items: center;
+  color: #EFDCAB;
+  text-decoration: none;
+  font-size: 16px;
+  flex-shrink: 1;
+  white-space: nowrap;
+}
+
 .direitos {
   font-size: 14px;
   margin-top: 20px;
