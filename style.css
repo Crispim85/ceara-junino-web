@@ -496,8 +496,8 @@ input::placeholder {
   padding: 0 10px;
 }
 
-/*Arrumar responsividade!*/
 .gallery {
   width: 75%;
   margin: auto;
+  font-size: 20px;
 }
