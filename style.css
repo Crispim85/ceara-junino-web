@@ -63,6 +63,7 @@ main section {
   text-align: center;
 }
 
+
 .banner {
   width: 100%;
   overflow: hidden;
@@ -112,7 +113,7 @@ main section hr {
 }
 
 .sobre h2 {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 20px;
   color: #EFDCAB;
   text-align: center;
@@ -186,7 +187,7 @@ main section hr {
   background: none;
   border: none;
   color: #EFDCAB;
-  font-size: 1.2rem;
+  font-size: 30px;
   display: none;
   align-items: center;
   gap: 5px;
@@ -372,7 +373,7 @@ main section div ul li {
 }
 
 #inscricoes h2 {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 30px;
   color: #3b1f00;
