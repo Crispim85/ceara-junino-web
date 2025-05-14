@@ -389,3 +389,42 @@ main section div ul li {
 #inscricoes input[type="submit"]:hover {
   background-color: #c06f1f;
 }
+
+#rodape {
+  background: linear-gradient(to bottom, #1a4f2b, #2c6e45);
+  color: #EFDCAB;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+#rodape .pat_ins,
+#rodape .pat_ofc {
+  margin-bottom: 30px;
+}
+
+#rodape .pat_ins img {
+  max-width: 100px;
+  height: auto;
+  margin: 10px auto;
+}
+
+  #rodape .pat_ofc img {
+    height: 80px;
+    object-fit: contain;
+    margin: 10px;
+  }
+
+#rodape .pat_ins p,
+#rodape .pat_ofc p {
+  margin: 10px 0;
+  color: #EFDCAB;
+}
+
+.direitos {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #EFDCAB;
+  padding: 0 10px;
+}
