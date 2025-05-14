@@ -108,7 +108,7 @@ main section hr {
 .sobre {
   background-color: #3C744D;
   padding: 40px 20px;
-  color: #54220A;
+  color: #3C744D;
 }
 
 .sobre h2 {
@@ -266,7 +266,7 @@ nav ul li a:hover {
 
 .btn-toggle {
   font-family: "Londrina Solid";
-  font-size: 30px;
+  font-size: 25px;
   display: inline-block;
   padding: 8px 60px;
   border: 3px solid #2e5d3b;
@@ -281,9 +281,9 @@ nav ul li a:hover {
   font-family: "Arimo";
   display: none;
   background-color: #EFDCAB;
-  padding: 20px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
+  padding: 60px;
+  border-radius: 40px;
+  border: 1px solid #EFDCAB;
 }
 
 .info-columns {
@@ -296,14 +296,14 @@ nav ul li a:hover {
   display: flex;
   gap: 8px;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .info-item-right {
   display: inline-block;
   gap: 8px;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .icon {
@@ -370,22 +370,23 @@ main section div ul li {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border: 2px solid #000;
+  border: 3px solid #3b1f00;
   border-radius: 20px;
   font-size: 16px;
   outline: none;
 }
 
 input::placeholder {
-  color: #444;
+  color: #6b4312;
 }
 
 #inscricoes input[type="submit"] {
   padding: 8px 20px;
   font-size: 16px;
+  font-weight: bold;
   background-color: #d18326;
-  color: #000;
-  border: 2px solid #000;
+  color: #3b1f00;
+  border: 3px solid #3b1f00;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
