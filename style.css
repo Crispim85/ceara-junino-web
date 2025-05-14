@@ -335,3 +335,57 @@ main section div ul {
 main section div ul li {
   margin: 4px 0;
 }
+
+#inscricoes {
+  background-color: #d18326;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#inscricoes h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #3b1f00;
+}
+
+#inscricoes form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#inscricoes label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3b1f00;
+}
+
+#inscricoes input[type="text"],
+#inscricoes input[type="email"],
+#inscricoes input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+#inscricoes input[type="submit"] {
+  padding: 8px 20px;
+  font-size: 16px;
+  background-color: #d18326;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#inscricoes input[type="submit"]:hover {
+  background-color: #c06f1f;
+}
