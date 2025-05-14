@@ -97,9 +97,9 @@ main p {
 
 main section hr {
   width: 80%;
-  height: 8px;
+  height: 3px;
   border-radius: 8px;
-  border-color: #3C744D;
+  border: none;
   margin: 40px auto 40px auto;
   background-color: #3C744D;
 }
@@ -268,7 +268,7 @@ nav ul li a:hover {
   font-family: "Londrina Solid";
   font-size: 25px;
   display: inline-block;
-  padding: 8px 60px;
+  padding: 8px 90px;
   border: 3px solid #2e5d3b;
   border-radius: 25px;
   background-color: transparent;
@@ -276,6 +276,33 @@ nav ul li a:hover {
   cursor: pointer;
   margin-bottom: 20px;
 }
+
+.btn-toggle2 {
+  font-family: "Londrina Solid";
+  font-size: 25px;
+  display: inline-block;
+  padding: 8px 45px;
+  border: 3px solid #2e5d3b;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #2e5d3b;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-toggle3 {
+  font-family: "Londrina Solid";
+  font-size: 25px;
+  display: inline-block;
+  padding: 8px 80px;
+  border: 3px solid #2e5d3b;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #2e5d3b;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
 /*CSS das informações*/
 .info-box {
   font-family: "Arimo";
@@ -283,7 +310,8 @@ nav ul li a:hover {
   background-color: #EFDCAB;
   padding: 60px;
   border-radius: 40px;
-  border: 1px solid #EFDCAB;
+  margin-bottom: 40px;
+  border: 3px solid #2e5d3b;
 }
 
 .info-columns {
