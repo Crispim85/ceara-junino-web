@@ -34,28 +34,33 @@
     <!--começando contudo principal da pagina-->
     <main>
         <!--Carrossel de imagens principais da página-->
-        <section class="banner banner2">
-           <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/2.png" class="d-block w-100" alt="banner">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/3.png" class="d-block w-100" alt="banner">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/4.png" class="d-block w-100" alt="banner">
-                        </div>
-                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-      <span class="visually-hidden">Próximo</span>
-    </button>
-  </div>
+        <section class="bannerbanner2">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/1.png" class="d-block carousel-img" alt="banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/2.png" class="d-block carousel-img" alt="banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/3.png" class="d-block carousel-img" alt="banner">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
         </section>
+
+
         <!--Sobre da pagina-->
         <section id="sobre" class="sobre">
             <h2>SOBRE</h2>
@@ -181,49 +186,51 @@
         </section>
         <section id="galeria">
             <div class="gallery">
-               <h2>GALERIA</h2>
-<div id="carouselgal" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/imgcarrossel1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="img/imgcarrossel2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="img/imgcarrossel3.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="img/imgcarrossel4.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="img/imgcarrossel5.jpg" class="d-block w-100" alt="...">
-        </div>
-    </div>
+                <h2>GALERIA</h2>
+                <div id="carouselgal" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/imgcarrossel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/imgcarrossel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/imgcarrossel3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/imgcarrossel4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/imgcarrossel5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselgal" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselgal" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Próximo</span>
-    </button>
-    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselgal"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselgal"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
         </section>
         <footer id="rodape">
             <div class="patrocinadores">
-            <div class="pat_ins">
-                <p>Patrocinador Institucional</p>
-                <img src="img/logoCeara.png" alt="Logo do Governo do Ceará" width="100px">
-            </div>
-            <div class="pat">
-                <p>Patrocinador Oficial</p>
-                <div class="pat_ofc">
-                    <img src="img/patrocinio1.png" alt="Logo Zuvy">
+                <div class="pat_ins">
+                    <p>Patrocinador Institucional</p>
+                    <img src="img/logoCeara.png" alt="Logo do Governo do Ceará" width="100px">
+                </div>
+                <div class="pat">
+                    <p>Patrocinador Oficial</p>
+                    <div class="pat_ofc">
+                        <img src="img/patrocinio1.png" alt="Logo Zuvy">
+                    </div>
                 </div>
             </div>
-        </div>
             <div class="redes" id="redes">
                 <a href="#"><img src="img/Tiktok_Icon.png" alt="Ícone Tiktok">@cearajunino</a>
                 <a href="#"><img src="img/Instagram_Icon.png" alt="Ícone Instagram">@cearajunino</a>
