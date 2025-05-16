@@ -341,7 +341,8 @@ nav ul li a:hover {
   margin-top: 2px;
 }
 
-.info-left, .info-right {
+.info-left,
+.info-right {
   flex: 1;
   min-width: 250px;
 }
@@ -436,16 +437,19 @@ input::placeholder {
 #rodape .patrocinadores {
   display: flex;
   justify-content: center;
-  gap: 30px; /* espaço entre os dois blocos */
+  gap: 30px;
+  /* espaço entre os dois blocos */
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 20px 0;
 }
 
-#rodape .patrocinadores > div {
-  flex: 0 0 300px; /* largura mínima + flexível */
+#rodape .patrocinadores>div {
+  flex: 0 0 300px;
+  /* largura mínima + flexível */
   text-align: center;
-  margin: 0; /* remove margens externas */
+  margin: 0;
+  /* remove margens externas */
 }
 
 #rodape .pat_ins,
@@ -487,7 +491,7 @@ input::placeholder {
     gap: 1px;
   }
 
-  #rodape .patrocinadores > div {
+  #rodape .patrocinadores>div {
     max-width: 90%;
   }
 
@@ -505,9 +509,9 @@ input::placeholder {
 }
 
 .redes img {
-    width: 50px;
-    object-fit: contain;
-    height: 50px;
+  width: 50px;
+  object-fit: contain;
+  height: 50px;
 }
 
 .redes a {
@@ -551,7 +555,8 @@ input::placeholder {
     text-align: center;
     padding: 0 15px;
   }
-  .info-box{
+
+  .info-box {
     padding: 20px;
   }
 }
