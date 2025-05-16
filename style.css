@@ -551,6 +551,9 @@ input::placeholder {
     text-align: center;
     padding: 0 15px;
   }
+  .info-box{
+    padding: 20px;
+  }
 }
 
 .gallery {
