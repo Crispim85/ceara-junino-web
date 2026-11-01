@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Animações e detalhes */
+@keyframes bandeirinhas-wave {
+  0%, 100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  50% {
+    transform: rotate(2deg) translateY(-2px);
+  }
+}
+
+.animate-bandeirinhas {
+  animation: bandeirinhas-wave 3s ease-in-out infinite;
+}
+
+/* Fita de bandeirinhas */
+.bandeirinhas-line {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #ea580c 0px,
+    #ea580c 20px,
+    #f59e0b 20px,
+    #f59e0b 40px,
+    #10b981 40px,
+    #10b981 60px,
+    #3b82f6 60px,
+    #3b82f6 80px,
+    #ec4899 80px,
+    #ec4899 100px
+  );
+  height: 6px;
+  width: 100%;
+}
+
+/* Padrão Cordel Xilogravura sutil */
+.bg-cordel-pattern {
+  background-color: #fff7e5;
+  background-image: radial-gradient(#d8c38e 0.75px, transparent 0.75px);
+  background-size: 15px 15px;
+}
+
+.dark .bg-cordel-pattern {
+  background-color: #0b131f;
+  background-image: radial-gradient(#1e293b 0.75px, transparent 0.75px);
+  background-size: 15px 15px;
+}
+
+/* Estilização da scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3c744d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d5a3c;
+}
